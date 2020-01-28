@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <!-------header .header-page------->
+    <header class="header-page">
+        <div class="container header-page__container">
+            <div class="header-page__start">
+                <a href="/">
+                    <img src="images/common/logo-header.png" alt="PizzaTime" width="127px" height="21">
+                </a>
+            </div>
+            <div class="header-page__end">
+                <nav class="header-page__nav">
+                    <ul class="header-page__ul">
+                        <li class="header-page__li">
+                            <a href="#!" class="header-page__link" data-scroll-to="section-catalog"><span class="header-page__text">пицца</span></a>
+                        </li>
+                        <li class="header-page__li">
+                            <a href="#!" class="header-page__link" data-scroll-to="section-about"><span class="header-page__text">о нас</span></a>
+                        </li>
+                        <li class="header-page__li">
+                            <a href="#!" class="header-page__link" data-scroll-to="section-contacts"><span class="header-page__text">контакты</span></a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="phone">
+                    <a class="phone__item header-page__phone" href="tel:+79999999999">+7 (999) 999-99-99</a>
+                </div>
+                <div class="header-page__hamburger">
+                    <button class="btn-menu" type="button" data-popup="popup-menu">
+                        <span class="button-menu__box">
+                            <span class="btn-menu__inner">
+                            </span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-------/header .header-page------->
+
+    <!-------section .section-top------->
+    <section class="section-top">
+        <div class=" container section-top__container">
+            <p class="section-top__info">
+                от итальянского повара
+            </p>
+            <h1 class="section-top__title">
+                Лучшая пицца в Москве
+            </h1>
+            <div class="section-top__button">
+                <button class="btn" type="button" data-scroll-to="section-catalog">Выбрать</button>
+            </div>
+        </div>
+    </section>
+    <!-------/section .section-top------->
+
+    <!-------section .section-catalog------->
+    <section class="section section-catalog">
+        <div class="container">
+            <header class="section__header">
+                <h2 class="page__title page__title--accent">Меню</h2>
+                <nav class="catalog-nav">
+                    <ul class="catalog-nav__wrapper">
+                        <li class="catalog-nav__item">
+                            <button class="catalog-nav__btn is-active" type="button">все</button>
+                        </li>
+                        <li class="catalog-nav__item">
+                            <button class="catalog-nav__btn" type="button">грибные</button>
+                        </li>
+                        <li class="catalog-nav__item">
+                            <button class="catalog-nav__btn" type="button">мясные</button>
+                        </li>
+                        <li class="catalog-nav__item">
+                            <button class="catalog-nav__btn" type="button">сырные</button>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="catalog">
+                <div class="catalog__item">
+                    <div class="product catalog__product">
+                        <img src="images/section-catalog/1.png" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">Салями</h3>
+                            <p class="product__description">Салями, картофель и морковь, огурцы маринованные, моцарелла,
+                                цыпленок, ветчина и французский соус </p>
+                        </div>
+                        <footer class="product__footer">
+                            <div class="product__sizes">
+                                <button class="product__size is-active" type="button">35см</button>
+                                <button class="product__size" type="button">30см</button>
+                                <button class="product__size" type="button">25см</button>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__price">
+                                    <span class="product__price-value">850</span>
+                                    <span class="product__currency">&#8381;</span>
+                                </div>
+                                <button class="btn product__btn" type="button" data-popup="popup-order">заказать</button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="catalog__item">
+                    <div class="product catalog__product">
+                        <img src="images/section-catalog/2.png" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">Хит</h3>
+                            <p class="product__description">Картофель и морковь, огурцы
+                                маринованные, моцарелла, цыпленок,
+                                ветчина и французский соус </p>
+                        </div>
+                        <footer class="product__footer">
+                            <div class="product__sizes">
+                                <button class="product__size is-active" type="button">35см</button>
+                                <button class="product__size" type="button">30см</button>
+                                <button class="product__size" type="button">25см</button>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__price">
+                                    <span class="product__price-value">950</span>
+                                    <span class="product__currency">&#8381;</span>
+                                </div>
+                                <button class="btn product__btn" type="button" data-popup="popup-order">заказать</button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="catalog__item">
+                    <div class="product catalog__product">
+                        <img src="images/section-catalog/3.png" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">Ветчина-грибы</h3>
+                            <p class="product__description">Салями, картофель и морковь, огурцы
+                                маринованные, моцарелла, цыпленок,
+                                ветчина и французский соус </p>
+                        </div>
+                        <footer class="product__footer">
+                            <div class="product__sizes">
+                                <button class="product__size is-active" type="button">35см</button>
+                                <button class="product__size" type="button">30см</button>
+                                <button class="product__size" type="button">25см</button>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__price">
+                                    <span class="product__price-value">880</span>
+                                    <span class="product__currency">&#8381;</span>
+                                </div>
+                                <button class="btn product__btn" type="button" data-popup="popup-order">заказать</button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="catalog__item">
+                    <div class="product catalog__product">
+                        <img src="images/section-catalog/4.png" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">Карбонара</h3>
+                            <p class="product__description">Салями, картофель и морковь, огурцы маринованные, моцарелла,
+                                цыпленок, ветчина и французский соус </p>
+                        </div>
+                        <footer class="product__footer">
+                            <div class="product__sizes">
+                                <button class="product__size is-active" type="button">35см</button>
+                                <button class="product__size" type="button">30см</button>
+                                <button class="product__size" type="button">25см</button>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__price">
+                                    <span class="product__price-value">1250</span>
+                                    <span class="product__currency">&#8381;</span>
+                                </div>
+                                <button class="btn product__btn" type="button" data-popup="popup-order">заказать</button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="catalog__item">
+                    <div class="product catalog__product">
+                        <img src="images/section-catalog/5.png" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">Фирменная</h3>
+                            <p class="product__description">Томатно-сливочный соус, бекон, моцарелла</p>
+                        </div>
+                        <footer class="product__footer">
+                            <div class="product__sizes">
+                                <button class="product__size is-active" type="button">35см</button>
+                                <button class="product__size" type="button">30см</button>
+                                <button class="product__size" type="button">25см</button>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__price">
+                                    <span class="product__price-value">890</span>
+                                    <span class="product__currency">&#8381;</span>
+                                </div>
+                                <button class="btn product__btn" type="button" data-popup="popup-order">заказать</button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="catalog__item">
+                    <div class="product catalog__product">
+                        <img src="images/section-catalog/6.png" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">Ассорти</h3>
+                            <p class="product__description">Картофель моцарелла, цыпленок, грибы,
+                                ветчина и французский соус </p>
+                        </div>
+                        <footer class="product__footer">
+                            <div class="product__sizes">
+                                <button class="product__size is-active" type="button">35см</button>
+                                <button class="product__size" type="button">30см</button>
+                                <button class="product__size" type="button">25см</button>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__price">
+                                    <span class="product__price-value">850</span>
+                                    <span class="product__currency">&#8381;</span>
+                                </div>
+                                <button class="btn product__btn" type="button" data-popup="popup-order">заказать</button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="catalog__item">
+                    <div class="product catalog__product">
+                        <img src="images/section-catalog/7.png" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">Л-01</h3>
+                            <p class="product__description">Томаты, моцарелла, цыпленок,
+                                ветчина и французский соус, секректный ингредиент </p>
+                        </div>
+                        <footer class="product__footer">
+                            <div class="product__sizes">
+                                <button class="product__size is-active" type="button">35см</button>
+                                <button class="product__size" type="button">30см</button>
+                                <button class="product__size" type="button">25см</button>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__price">
+                                    <span class="product__price-value">920</span>
+                                    <span class="product__currency">&#8381;</span>
+                                </div>
+                                <button class="btn product__btn" type="button" data-popup="popup-order">заказать</button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="catalog__item">
+                    <div class="product catalog__product">
+                        <img src="images/section-catalog/8.png" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">Три сыра</h3>
+                            <p class="product__description">Чеддер, камамбер, эдам</p>
+                        </div>
+                        <footer class="product__footer">
+                            <div class="product__sizes">
+                                <button class="product__size is-active" type="button">35см</button>
+                                <button class="product__size" type="button">30см</button>
+                                <button class="product__size" type="button">25см</button>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__price">
+                                    <span class="product__price-value">990</span>
+                                    <span class="product__currency">&#8381;</span>
+                                </div>
+                                <button class="btn product__btn" type="button" data-popup="popup-order">заказать</button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+                <div class="catalog__item">
+                    <div class="product catalog__product">
+                        <img src="images/section-catalog/9.png" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">Мясная</h3>
+                            <p class="product__description">Курица, говядина, сливочный соус, салями,
+                                огурцы маринованные, томаты, грибы,
+                                бекон </p>
+                        </div>
+                        <footer class="product__footer">
+                            <div class="product__sizes">
+                                <button class="product__size is-active" type="button">35см</button>
+                                <button class="product__size" type="button">30см</button>
+                                <button class="product__size" type="button">25см</button>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__price">
+                                    <span class="product__price-value">950</span>
+                                    <span class="product__currency">&#8381;</span>
+                                </div>
+                                <button class="btn product__btn" type="button" data-popup="popup-order">заказать</button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------/section .section-catalog------->
+
+
+    <!-------section .section-about------->
+    <section class="section section-about">
+        <img src="images/section-about/about-bg.jpg" alt="" class="section-about__img">
+        <div class="container section-about__container">
+            <div class="section-about__content">
+                <h2 class="page__title section-about__title">О нас</h2>
+                <p class="section-about__text">Доставим вам горячую пиццу менее чем за час или пицца бесплатно.
+                    Мы готовим пиццу только из свежих продуктов. Каждый день мы покупаем свежие овощи, грибы и мясо.</p>
+            </div>
+        </div>
+    </section>
+    <!-------/section .section-about------->
+
+    <!-------/section .section-contacts------->
+    <section class="section section-contacts">
+        <div class="container section-contacts__container">
+            <header class="section__header">
+                <h2 class="page__title section-contacts__title">Контакты</h2>
+            </header>
+            <div class="contacts">
+                <div class="contacts__start">
+                    <div class="contacts__map"></div>
+                </div>
+                <div class="contacts__end">
+                    <div class="contacts__item">
+                        <h3 class="contacts__title">Адрес</h3>
+                        <p class="contacts__text">г. Москва, Преображенская площадь, 8</p>
+                    </div>
+                    <div class="contacts__item">
+                        <h3 class="contacts__title">Социальные сети</h3>
+                        <a class="contacts__phone" href="tel:79117112123">+7 (911) 711-21-23</a>
+                    </div>
+                    <div class="contacts__item">
+                        <h3 class="contacts__title">Социальные сети</h3>
+                        <ul class="socials">
+                            <li class="social__item">
+                                <a href="#!" target="_blank" class="social__link">
+                                    <img src="images/section-contacts/vk.png" alt="vk">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#!" target="_blank" class="social__link">
+                                    <img src="images/section-contacts/facebook.png" alt="facebook">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#!" target="_blank" class="social__link">
+                                    <img src="images/section-contacts/instagram.png" alt="instagram">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------/section .section-contacts------->
+
+    <!-------footer .footer-page------->
+    <footer class="footer-page">
+        <div class="container">
+            <div class="footer-page__text">
+                PizzaTime 2020
+            </div>
+        </div>
+    </footer>
+    <!-------/footer .footer-page------->
+
+
+    <!-------popup-menu------->
+    <div class="popup-menu">
+        <div class="popup__wrapper">
+            <div class="popup__inner">
+                <div class="popup__content popup__content--fluid popup__content--center">
+                    <button class="btn-close popup__button-close popup-close"></button>
+                    <nav class="mobile-menu popup-menu__mobile-menu">
+                        <ul class="mobile-menu__ul">
+                            <li class="mobile-menu__li">
+                                <a href="#!" class="mobile-menu__link popup-close" data-scroll-to="section-catalog">Пицца</a>
+                            </li>
+                            <li class="mobile-menu__li">
+                                <a href="#!" class="mobile-menu__link popup-close" data-scroll-to="section-about">О нас</a>
+                            </li>
+                            <li class="mobile-menu__li">
+                                <a href="#!" class="mobile-menu__link popup-close" data-scroll-to="section-contacts">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="phone popup-menu__phone">
+                        <a class="phone__item phone__item--accent" href="tel:+79999999999">+7 (999) 999-99-99</a>
+                    </div>
+                    <ul class="socials">
+                        <li class="social__item">
+                            <a href="#!" target="_blank" class="social__link">
+                                <img src="images/section-contacts/vk.png" alt="vk">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#!" target="_blank" class="social__link">
+                                <img src="images/section-contacts/facebook.png" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#!" target="_blank" class="social__link">
+                                <img src="images/section-contacts/instagram.png" alt="instagram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------/popup-menu------->
+
+    <!-------popup-order------->
+    <div class="popup-menu popup-order">
+        <div class="popup__wrapper">
+            <div class="popup__inner">
+                <div class="popup__content">
+                    <button class="btn-close popup__button-close popup-close"></button>
+                    <h2 class="page__title popup__title">Заполните форму</h2>
+                    <p class="popup__subtitle popup__subtitle--order">Мы привизем вам горячую пиццу за 50 минут</p>
+                    <div class="order">
+                        <img class="order__img" src="images/section-catalog/1.png" alt="">
+                        <h3 class="order__title">
+                            <span>Салями</span>
+                            <span>850</span> &#8381;
+                        </h3>
+                        <p class="order__size">35 см</p>
+                        <form class="form">
+                            <input type="hidden" name="пицца">
+                            <input type="hidden" name="цена">
+                            <input type="hidden" name="размер">
+                            <input class="form__input" type="text" placeholder="Имя" name="имя" required>
+                            <input class="form__input" type="text" placeholder="Телефон" name="телефон" required>
+                            <input class="form__input" type="text" placeholder="Адрес" name="адрес" required>
+                            <select class="form__input" name="оплата">
+                                <option value="Оплата наличными">Оплата наличными</option>
+                                <option value="Оплата картой">Картой</option>
+                            </select>
+                            <button class="btn form__btn" type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------/popup-order------->
+
+    <!-------popup-thanks------->
+    <div class="popup-menu popup-error">
+        <div class="popup__wrapper">
+            <div class="popup__inner">
+                <div class="popup__content">
+                    <button class="btn-close popup__button-close popup-close"></button>
+                    <h2 class="page__title popup__title">Успешно отправлено</h2>
+                    <p class="popup__subtitle">Мы уже начали готовить вашу пиццу</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------/popup-thanks------->
+
+    <!-------popup-error------->
+    <div class="popup-menu popup-thanks>
+        <div class="popup__wrapper">
+            <div class="popup__inner">
+                <div class="popup__content">
+                    <button class="btn-close popup__button-close popup-close"></button>
+                    <h2 class="page__title popup__title">Произошла ошибка</h2>
+                    <p class="popup__subtitle">Пожалуйста сделайте заказ по номеру <a class="popup__link" href="tel:+8800553535">+8 (800) 55-35-35</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------/popup-error------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
